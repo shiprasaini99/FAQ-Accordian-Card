@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--displays site properly based on user's device -->
 
 <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
@@ -16,14 +16,14 @@
 
       <!-- Main is divided into two sections i.e., Image section and Faq section -->
       <section class="image-conatiner-desktop">    <!--Image section for desktop-->
-        <img src="/faq-accordion-card-main/images/bg-pattern-desktop.svg" alt="bg-pattern" class="bg-desktop" width="300" height="300">
-        <img src="/faq-accordion-card-main/images/illustration-box-desktop.svg" alt="box" class="box-desktop">
-        <img src="/faq-accordion-card-main/images/illustration-woman-online-desktop.svg" alt="women-online-image" class="women-desktop">
+        <img src="images/bg-pattern-desktop.svg" alt="bg-pattern" class="bg-desktop" width="300" height="300">
+        <img src="images/illustration-box-desktop.svg" alt="box" class="box-desktop">
+        <img src="images/illustration-woman-online-desktop.svg" alt="women-online-image" class="women-desktop">
       </section>
 
       <section class="image-container-mobile">    <!--Image section for Mobile version-->
-        <img src="/faq-accordion-card-main/images/bg-pattern-mobile.svg" alt="bg-pattern" class="bg-mobile">
-        <img src="/faq-accordion-card-main/images/illustration-woman-online-mobile.svg" alt="women-online-image" class="women-mobile" width="50%" height="50%">
+        <img src="images/bg-pattern-mobile.svg" alt="bg-pattern" class="bg-mobile">
+        <img src="images/illustration-woman-online-mobile.svg" alt="women-online-image" class="women-mobile" width="50%" height="50%">
       </section>
 
       <section class="text-container">   <!-- FAQ Section-->
@@ -33,62 +33,39 @@
           <h1 class="main-heading" >FAQ</h1>
         </div>
 
-        <div class="faq">    
-            <p class="question">How many team members can I invite?</p>
-            <img src="/faq-accordion-card-main/images/icon-arrow-down.svg" alt="Down Arrow" class="icon">
-        </div>
-
-        <div class="reply">
-          <p class="answer">You can invite up to 2 additional users on the Free plan. There is no limit on 
-        team members for the Premium plan.</p>
-        </div>
-
-        <hr>
-
-        <div class="faq">
-          <p class="question">What is the maximum file upload size?</p>
-          <img src="/faq-accordion-card-main/images/icon-arrow-down.svg" alt="Down Arrow" class="icon">
-        </div>
-
-        <div class="reply">
-          <p class="answer">No more than 2GB. All files in your account must fit your allotted storage space.</p>
-        </div>
-
-        <hr>
-
-        <div class="faq">
-          <p class="question">How do I reset my password?</p>
-          <img src="/faq-accordion-card-main/images/icon-arrow-down.svg" alt="Down Arrow" class="icon">
-        </div>
-
-        <div class="reply">
-          <p class="answer">Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
-        </div>
-
-        <hr>
-
-        <div class="faq">
-          <p class="question">Can I cancel my subscription?</p>
-          <img src="/faq-accordion-card-main/images/icon-arrow-down.svg" alt="Down Arrow" class="icon">
-        </div>
-
-        <div class="reply">
-          <p class="answer">Yes! Send us a message and we’ll process your request no questions asked.</p>
-        </div>
-
-        <hr>
-
-        <div class="faq">
-          <p class="question">Do you provide additional support?</p>
-          <img src="/faq-accordion-card-main/images/icon-arrow-down.svg" alt="Down Arrow" class="icon">
-        </div>
-
-        <div class="reply">
-          <p class="answer">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
-        </div>
-
-        <hr>
-  
+        <ul style="list-style-type: none; padding: 0;">
+          <div class="faq">
+            <li><a class="question" href="#">How many team members can I invite?</a></li>
+            <img src="images/icon-arrow-down.svg" alt="Down Arrow" class="icon">
+            <p class="answer">You can invite up to 2 additional users on the Free plan. There is no limit on 
+              team members for the Premium plan.</p>
+          </div>
+          <hr>
+          <div class="faq">
+            <li><a class="question" href="#">What is the maximum file upload size?</a></li>
+            <img src="images/icon-arrow-down.svg" alt="Down Arrow" class="icon">
+            <p class="answer">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+          </div>
+          <hr>
+          <div class="faq"> 
+            <li><a class="question" href="#">How do I reset my password?</a></li>
+            <img src="images/icon-arrow-down.svg" alt="Down Arrow" class="icon">
+            <p class="answer">Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
+          </div>
+          <hr>
+          <div class="faq">
+            <li><a class="question" href="#">Can I cancel my subscription?</a></li>
+            <img src="images/icon-arrow-down.svg" alt="Down Arrow" class="icon">
+            <p class="answer">Yes! Send us a message and we’ll process your request no questions asked.</p>
+          </div>
+          <hr>
+          <div class="faq">
+            <li><a class="question" href="#">Do you provide additional support?</a></li>
+            <img src="images/icon-arrow-down.svg" alt="Down Arrow" class="icon">
+            <p class="answer">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+          </div>
+          <hr>
+        </ul>
       </section>
     </main>
 
@@ -102,3 +79,58 @@
 
 </body>
 </html>
+
+
+<!-- <div class="faq">    
+  <p class="question">How many team members can I invite?</p>
+  <img src="images/icon-arrow-down.svg" alt="Down Arrow" class="icon">
+</div>
+
+<div class="reply">
+<p class="answer">You can invite up to 2 additional users on the Free plan. There is no limit on 
+team members for the Premium plan.</p>
+</div>
+
+<hr>
+
+<div class="faq">
+<p class="question">What is the maximum file upload size?</p>
+<img src="images/icon-arrow-down.svg" alt="Down Arrow" class="icon">
+</div>
+
+<div class="reply">
+<p class="answer">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+</div>
+
+<hr>
+
+<div class="faq">
+<p class="question">How do I reset my password?</p>
+<img src="images/icon-arrow-down.svg" alt="Down Arrow" class="icon">
+</div>
+
+<div class="reply">
+<p class="answer">Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
+</div>
+
+<hr>
+
+<div class="faq">
+<p class="question">Can I cancel my subscription?</p>
+<img src="images/icon-arrow-down.svg" alt="Down Arrow" class="icon">
+</div>
+
+<div class="reply">
+<p class="answer">Yes! Send us a message and we’ll process your request no questions asked.</p>
+</div>
+
+<hr>
+
+<div class="faq">
+<p class="question">Do you provide additional support?</p>
+<img src="images/icon-arrow-down.svg" alt="Down Arrow" class="icon">
+</div>
+
+<div class="reply">
+<p class="answer">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+</div> -->
